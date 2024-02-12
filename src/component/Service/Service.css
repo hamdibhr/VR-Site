@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Oswald:wght@200..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+.photoMr {
+  width: 100%; /* Make the image responsive */
+  max-width: 950px; /* Set a maximum width */
+}
+
+.Notre,
+.Client {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 600;
+  font-size: 100px; /* Adjust the font size for smaller screens */
+  line-height: 80px; /* Adjust the line height accordingly */
+  color: black;
+}
+
+.custom-text2 {
+  font-family: "Oswald", sans-serif;
+  font-weight: normal;
+  font-size: 18px; /* Adjust the font size for smaller screens */
+  line-height: 28px; /* Adjust the line height accordingly */
+  color: black;
+}
+.Comment {
+  font-family: "Orbitron", sans-serif;
+  font-weight: 500;
+  font-size: larger;
+  color: black;
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 768px) {
+  .Notre,
+  .Client {
+    font-size: 40px;
+    line-height: 60px;
+  }
+
+  .custom-text2 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
